@@ -7,4 +7,6 @@ export function pageLoaded(args: observable.EventData) {
     // Get the event sender
     let page = <pages.Page>args.object;
     page.bindingContext = new HelloWorldModel();
+    // const v = page.bindingContext.acedrawingview.getView();
+    // page.
 }

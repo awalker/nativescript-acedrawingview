@@ -1,5 +1,5 @@
-import { Common } from './acedrawingview.common';
+import { AcedrawingviewBase } from './acedrawingview.common';
 
-export class Acedrawingview extends Common {
+export class Acedrawingview extends AcedrawingviewBase {
 
 }

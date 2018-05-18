@@ -2,5 +2,6 @@
   xmlns:ui="nativescript-acedrawingview">
   <StackLayout class="p-20">
     <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
+    <ui:Acedrawingview style="width:100%; height:100%;"></ui:Acedrawingview>
   </StackLayout>
 </Page>

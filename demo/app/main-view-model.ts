@@ -3,7 +3,7 @@ import { Acedrawingview } from 'nativescript-acedrawingview';
 
 export class HelloWorldModel extends Observable {
   public message: string;
-  private acedrawingview: Acedrawingview;
+  public acedrawingview: Acedrawingview;
 
   constructor() {
     super();

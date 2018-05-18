@@ -1,0 +1,711 @@
+  - Name:            ACEDrawingView
+    JsName:          ACEDrawingView
+    Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+    Module:          
+      FullName:        ACEDrawingView.ACEDrawingView
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'applyDrawToImage:'
+        JsName:          applyDrawToImage
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+      - Name:            canRedo
+        JsName:          canRedo
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            canUndo
+        JsName:          canUndo
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            clear
+        JsName:          clear
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            commitAndDiscardToolStack
+        JsName:          commitAndDiscardToolStack
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'loadImage:'
+        JsName:          loadImage
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+      - Name:            'loadImageData:'
+        JsName:          loadImageData
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            prepareForSnapshot
+        JsName:          prepareForSnapshot
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            redoLatestStep
+        JsName:          redoLatestStep
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            undoLatestStep
+        JsName:          undoLatestStep
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            backgroundImage
+        JsName:          backgroundImage
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            backgroundImage
+          JsName:          backgroundImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setBackgroundImage:'
+          JsName:          setBackgroundImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+      - Name:            customDrawTool
+        JsName:          customDrawTool
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customDrawTool
+          JsName:          customDrawTool
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ACEDrawingTool
+        Setter:          
+          Name:            'setCustomDrawTool:'
+          JsName:          setCustomDrawTool
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ACEDrawingTool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ACEDrawingViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ACEDrawingViewDelegate
+      - Name:            draggableTextCloseImage
+        JsName:          draggableTextCloseImage
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            draggableTextCloseImage
+          JsName:          draggableTextCloseImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setDraggableTextCloseImage:'
+          JsName:          setDraggableTextCloseImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+      - Name:            draggableTextFontName
+        JsName:          draggableTextFontName
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            draggableTextFontName
+          JsName:          draggableTextFontName
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setDraggableTextFontName:'
+          JsName:          setDraggableTextFontName
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            draggableTextRotateImage
+        JsName:          draggableTextRotateImage
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            draggableTextRotateImage
+          JsName:          draggableTextRotateImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setDraggableTextRotateImage:'
+          JsName:          setDraggableTextRotateImage
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+      - Name:            drawMode
+        JsName:          drawMode
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawMode
+          JsName:          drawMode
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ACEDrawingMode
+        Setter:          
+          Name:            'setDrawMode:'
+          JsName:          setDrawMode
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            ACEDrawingMode
+      - Name:            drawTool
+        JsName:          drawTool
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawTool
+          JsName:          drawTool
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ACEDrawingToolType
+        Setter:          
+          Name:            'setDrawTool:'
+          JsName:          setDrawTool
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            ACEDrawingToolType
+      - Name:            edgeSnapThreshold
+        JsName:          edgeSnapThreshold
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            edgeSnapThreshold
+          JsName:          edgeSnapThreshold
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setEdgeSnapThreshold:'
+          JsName:          setEdgeSnapThreshold
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            image
+        JsName:          image
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            image
+          JsName:          image
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+      - Name:            lineAlpha
+        JsName:          lineAlpha
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            lineAlpha
+          JsName:          lineAlpha
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setLineAlpha:'
+          JsName:          setLineAlpha
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            lineColor
+        JsName:          lineColor
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            lineColor
+          JsName:          lineColor
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setLineColor:'
+          JsName:          setLineColor
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            lineWidth
+        JsName:          lineWidth
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            lineWidth
+          JsName:          lineWidth
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setLineWidth:'
+          JsName:          setLineWidth
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            undoSteps
+        JsName:          undoSteps
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            undoSteps
+          JsName:          undoSteps
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            prev_image
+        JsName:          prev_image
+        Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+        Module:          
+          FullName:        ACEDrawingView.ACEDrawingView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            prev_image
+          JsName:          prev_image
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setPrev_image:'
+          JsName:          setPrev_image
+          Filename:        /Users/adam/Documents/Source/nativescript-acedrawingview/demo/platforms/ios/build/emulator/ACEDrawingView.framework/Headers/ACEDrawingView.h
+          Module:          
+            FullName:        ACEDrawingView.ACEDrawingView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
