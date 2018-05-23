@@ -39,7 +39,7 @@ const handler = TapHandler.new();
 export class Acedrawingview extends AcedrawingviewBase {
 
   // added for TypeScript intellisense.
-  nativeView: any; //ACEDrawingView;
+  nativeView: any; // ACEDrawingView;
 
   /**
    * Creates new native button.
@@ -89,7 +89,7 @@ export class Acedrawingview extends AcedrawingviewBase {
 
   // gets the default native value for opacity property.
   // If view is recycled the value returned from this method
-  // will be passed to [myOppacityProperty.setNative]
+  // will be passed to [myOpacityProperty.setNative]
   [myOpacityProperty.getDefault](): number {
     return this.nativeView.alpha;
   }
