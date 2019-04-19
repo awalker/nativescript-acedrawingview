@@ -7,7 +7,7 @@ import { View, Style, Property, CssProperty, isIOS } from "tns-core-modules/ui/c
 // backgroundImage: UIImage
 //
 export const textProperty = new Property<AcedrawingviewBase, string>({ name: "text", defaultValue: "", affectsLayout: isIOS });
-export const backgroundImageProperty = new Property<AcedrawingviewBase, UIImage>({ name: "backgroundImage", defaultValue: null, affectsLayout: isIOS });
+export const backgroundImageProperty = new Property<AcedrawingviewBase, any>({ name: "backgroundImage", defaultValue: null, affectsLayout: isIOS });
 
 export const customDrawToolProperty = new Property<AcedrawingviewBase, any>({name: 'customDrawTool', defaultValue: null});
 export const delegateProperty = new Property<AcedrawingviewBase, any>({name: 'delegate', defaultValue: null});

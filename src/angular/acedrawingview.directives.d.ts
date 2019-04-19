@@ -1,3 +1,7 @@
-export declare class AcedrawingviewComponentDirective {
+export declare class AcedrawingviewDirective {
+    constructor();
 }
-export declare const DIRECTIVES: typeof AcedrawingviewComponentDirective;
+export declare class AceDrawingViewDirective {
+    constructor();
+}
+export declare const DIRECTIVES: typeof AcedrawingviewDirective[];

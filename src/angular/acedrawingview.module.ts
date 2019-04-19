@@ -7,6 +7,25 @@ import { DIRECTIVES } from "./acedrawingview.directives";
   declarations: [DIRECTIVES],
   exports: [DIRECTIVES],
 })
-export class AcedrawingviewComponentModule { }
+export class AcedrawingviewComponentModule {
+  constructor() {
+    console.log('AcedrawingviewComponentModule');
+  }
+}
 
-registerElement("AceDrawingView", () => require("../").Acedrawingview);
+console.log('before registerElement');
+registerElement("Acedrawingview", () => {
+  console.log('registerElement Acedrawingview');
+  const c = require("../acedrawingview").Acedrawingview;
+  console.log('c', c);
+  return c;
+});
+registerElement("AceDrawingView", () => {
+  console.log('registerElement Acedrawingview');
+  const c = require("../acedrawingview").Acedrawingview;
+  console.log('c', c);
+  return c;
+});
+// registerElement("Acedrawingview", () => {
+//   return ACEDrawingView;
+// });

@@ -23,3 +23,11 @@ publish/package
 demo/report/report.html
 demo/report/stats.json
 demo/metadata-*/*
+
+
+demo2/lib
+demo2/platforms
+demo2/report/report.html
+demo2/report/stats.json
+demo2/metadata-*/*
+demo2/node_modules

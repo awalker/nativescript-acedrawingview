@@ -41,20 +41,34 @@ export class Acedrawingview extends AcedrawingviewBase {
   // added for TypeScript intellisense.
   nativeView: any; // ACEDrawingView;
 
-  /**
-   * Creates new native button.
-   */
-  public createNativeView(): Object {
-    console.log('createNativeView');
-    // Create new instance
-    const button = new ACEDrawingView();
-    console.log('createNativeView fin');
+  constructor() {
+    console.log('Acedrawingview constructor');
+    super();
+    // this.nativeView = new ACEDrawingView();
+    // this._localDelegate = LoginButtonDelegate.new();
+  }
 
+  public createNativeView(): Object {
+    // Create new instance
+    const button = UIButton.buttonWithType(UIButtonType.System);
+    button.setTitleForState('steve made her do it', UIControlState.Normal);
     // Set the handler as callback function.
     // button.addTargetActionForControlEvents(handler, "tap", UIControlEvents.TouchUpInside);
 
     return button;
   }
+
+  onLoaded() {
+    super.onLoaded();
+    console.log('onLoaded');
+    // this.nativeView.delegate = this._localDelegate;
+  }
+
+  onUnloaded() {
+    super.onUnloaded();
+    // this.nativeView.delegate = undefined;
+  }
+
 
   /**
    * Initializes properties/listeners of the native view.

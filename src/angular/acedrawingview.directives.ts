@@ -1,8 +1,20 @@
 import { Directive } from "@angular/core";
 
 @Directive({
+  selector: "Acedrawingview"
+})
+export class AcedrawingviewDirective {
+  constructor() {
+    console.log('AcedrawingviewDirective');
+  }
+}
+@Directive({
   selector: "AceDrawingView"
 })
-export class AcedrawingviewComponentDirective { }
+export class AceDrawingViewDirective {
+  constructor() {
+    console.log('AcedrawingviewDirective');
+  }
+}
 
-export const DIRECTIVES = AcedrawingviewComponentDirective;
+export const DIRECTIVES = [AcedrawingviewDirective, AceDrawingViewDirective];
