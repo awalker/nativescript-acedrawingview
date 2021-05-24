@@ -1,3 +1,7 @@
+# Archived
+
+I don't use native script anymore, so I'm archiving this project.
+
 # Your Plugin Name
 
 Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
